@@ -28,7 +28,6 @@ public class DynArray<T> {
     public void remove(int i) {
         this.array[i] = null;
         this.currentSize--;
-        // TODO: Fingerübung: Array wieder verkleinern!
     }
 
     @SuppressWarnings("unchecked")
